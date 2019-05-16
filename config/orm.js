@@ -23,7 +23,7 @@ function objToSql(obj) {
     for (var key in obj) {
         var value = obj[key];
         //check to skip hidden properties
-        if (Object.hasOwnPropert.call(obj, key)) {
+        if (Object.hasOwnProperty.call(obj, key)) {
             // if strin with spaces, add quotations
             if (typeof value === 'string' && value.indexOf(" ") >= 0) {
                 value = " ' " + value + " ' "
