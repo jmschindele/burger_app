@@ -1,0 +1,10 @@
+.burger-list {
+    font-size: 18pt;
+}
+
+.change-devoured, .delete-burger {
+    font-size: 14pt;
+    padding: .5rem;
+    margin: 5 px;
+    width: 80%;
+}
