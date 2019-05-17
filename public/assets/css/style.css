@@ -4,7 +4,54 @@
 
 .change-devoured, .delete-burger {
     font-size: 14pt;
-    padding: .5rem;
-    margin: 5 px;
-    width: 80%;
+    /* padding: .5rem; */
+    margin-bottom: 10px;
+    width: 60%;
+    /* height: 15px; */
 }
+
+.container {
+    /* background: saddlebrown; */
+}
+
+body {
+    background: lightyellow;
+}
+
+.burger-title {
+    color: darkslategray;
+    
+}
+
+#ba-button {
+ margin-bottom: 20px;
+}
+
+.jumbotron {
+    /* background: wheat; */
+    margin-top: 20px;
+    background: #ffa32b;
+    border-top-right-radius: 140px;
+    border-top-left-radius: 140px;
+    box-shadow: inset -15px -8px #da8a25;
+    
+}
+
+.bun-bottom {
+    
+}
+li {
+    background: #962100;
+    border-radius: 20px;
+}
+
+hr {
+    background: #621700;
+    /* background-color: black; */
+    height: 30px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
