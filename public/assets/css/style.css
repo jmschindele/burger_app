@@ -75,7 +75,8 @@ li {
     border-radius: 20px;
     box-shadow: inset -25px -10px 2px #621700;
     border: 1px solid black;
-    
+    width: 98%;
+    margin: 0 auto;
 }
 
 ul {
@@ -93,7 +94,8 @@ ul {
     border-bottom-right-radius: 5px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
-    width: 99%;
+    width: 96%;
+    height: 2.4em;
     font-family: 'Frijole'
 
 }
