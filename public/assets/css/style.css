@@ -135,7 +135,7 @@ ul {
     width: 90%;
     height: 600px;
     margin: 0 auto;
-    box-shadow: inset -80px -10px 15px rgb(121, 6, 6);
+    box-shadow: inset -80px -10px 15px rgb(121, 6, 6), inset 20px 0px 15px rgb(121,6,6);
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 20px;
@@ -148,8 +148,11 @@ ul {
     width: 90%;
     height: 300px;
     margin: 25% auto;
-    box-shadow: inset -60px 0px 15px rgb(0,0,0,.1);
-    
+    box-shadow: inset -60px 0px 15px rgb(0,0,0,.1), inset 10px 0px 15px rgba(0, 0, 0, .1);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 15px;
 
 }
 
