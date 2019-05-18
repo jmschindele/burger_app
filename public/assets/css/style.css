@@ -88,13 +88,13 @@ ul {
 .cheese {
     background: yellow;
     border: solid 1px black;
-    color: darkyellow;
+    color: rgba(75, 75, 75, .8);
     box-shadow: inset -2px -5px 3px rgba(0, 0, 0, .2);
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
-    width: 96%;
+    width: 98%;
     height: 2.4em;
     font-family: 'Frijole'
 
@@ -169,3 +169,5 @@ ul {
     height: 600px;
     width: 5%;
 }
+
+ 
