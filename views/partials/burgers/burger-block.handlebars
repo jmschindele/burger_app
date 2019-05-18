@@ -1,18 +1,20 @@
 <li class="burger-list">
 	<div class="row">
 		<div class="col-6">
-	<p class='burger-title'>{{burger_name}}</p>
-	</div>
-	<div class="col-6">
-	<button class=" btn btn-success change-devoured" data-id="{{id}}" data-newdevoured="{{devoured}}">
-		{{#if devoured}}MEAT YOUR MAKER{{else}}"ANOTHER ONE!" - DJ KHALED{{/if}}
-	</button>
-	
-	<button class=" btn btn-danger delete-burger" data-id="{{this.id}}"><i class="fas fa-dumpster-fire"></i>      DELETE!</button>
-	</div></div>
+			<p class='burger-title'>{{burger_name}}</p>
+		</div>
+		<div class="col-6">
+			<div class="row">
+				<div class="col-12">
+					<button class=" btn btn-success change-devoured" data-id="{{id}}" data-newdevoured="{{devoured}}">
+						{{#if devoured}}MEAT YOUR MAKER{{else}}"ANOTHER ONE!" - DJ KHALED{{/if}}
+					</button>
 
-	<div class="row">
-	<div class="col-12 class="patty-bottom">
-	</div>
-	</div>
+
+					<button class=" btn btn-danger delete-burger" data-id="{{this.id}}"><i
+							class="fas fa-dumpster-fire"></i> DELETE!</button>
+				</div>
+			</div>
+
+
 </li>

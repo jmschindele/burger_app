@@ -97,22 +97,68 @@ ul {
 
 }
 
+
 .container {
     width: 900px;
-    box-shadow: 0px 0px 40px 20px rgba(255, 255, 255, .5), 
-    inset 0px 0px 0px 500px rgba(255,255,255,.5);
+    box-shadow: 0px 0px 40px 20px rgba(255,165,0,.5),
+    inset 0px 0px 0px 500px rgba(255,165,0,.5);
     border-bottom-right-radius: 100px;
     border-bottom-left-radius: 100px;
     border-top-right-radius: 200px;
     border-top-left-radius: 200px;
 }
-/* 
-.container {
-    width: 900px;
-    box-shadow: 0px 0px 40px 20px rgba(255, 255, 255, .5), 
-    inset 0px 0px 0px 500px rgba(255,255,255,.5);
-    border-bottom-right-radius: 100px;
-    border-bottom-left-radius: 100px;
-    border-top-right-radius: 200px;
-    border-top-left-radius: 200px;
-} */
+
+.bottle-tip {
+    border-top: none;
+    border-right: 40px solid transparent;
+    border-left: 40px solid transparent;
+    border-bottom: solid 220px darkred;
+    width: 35%;
+    height: 80px;
+    margin: 40px auto 0px auto;
+}
+
+.bottle-top {
+    background: darkred;
+    border: solid 1px black;
+    width: 80%;
+    height: 30px;
+    margin: 0 auto;
+    box-shadow: inset -60px -10px 15px rgb(121, 6, 6);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.bottle-body {
+    background: darkred;
+    border: solid 1px black;
+    width: 90%;
+    height: 600px;
+    margin: 0 auto;
+    box-shadow: inset -80px -10px 15px rgb(121, 6, 6);
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.bottle-label {
+    background: white;
+    border: solid 1px black;
+    width: 90%;
+    height: 300px;
+    margin: 25% auto;
+    box-shadow: inset -60px 0px 15px rgb(0,0,0,.1);
+    
+
+}
+
+.spacer {
+    height: 600px;
+    width: 15%;
+}
+
+.spacer2 {
+    height: 600px;
+    width: 5%;
+}
