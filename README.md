@@ -12,7 +12,7 @@ If you would like to download and use this code you will need to:
 * run npm install in the command line to download package.json dependencies.
 * create a Heroku app with JawsDB add-on
   
-  ## Getting Started
+## Getting Started
   1. Create a burger
   2. Update a burger
   3. Delete a burger
